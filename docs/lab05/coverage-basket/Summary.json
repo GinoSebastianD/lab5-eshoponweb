@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "generatedon": "2026-10-27T04:12:03Z",
+    "parser": "Cobertura",
+    "assemblies": 2,
+    "classes": 5,
+    "files": 5,
+    "coveredlines": 107,
+    "uncoveredlines": 0,
+    "coverablelines": 107,
+    "totallines": 192,
+    "linecoverage": 100,
+    "coveredbranches": 18,
+    "totalbranches": 18,
+    "branchcoverage": 100,
+    "coveredmethods": 17,
+    "fullcoveredmethods": 17,
+    "totalmethods": 17,
+    "methodcoverage": 100,
+    "fullmethodcoverage": 100
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "ApplicationCore", "classes": 4, "coverage": 100, "coveredlines": 104, "coverablelines": 104, "totallines": 181, "branchcoverage": 100, "coveredbranches": 18, "totalbranches": 18, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 16, "fullcoveredmethods": 16, "totalmethods": 16, "classesinassembly": [
+        { "name": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket", "coverage": 100, "coveredlines": 21, "coverablelines": 21, "totallines": 41, "branchcoverage": 100, "coveredbranches": 2, "totalbranches": 2, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 6, "fullcoveredmethods": 6, "totalmethods": 6 },
+        { "name": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem", "coverage": 100, "coveredlines": 14, "coverablelines": 14, "totallines": 34, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 3, "fullcoveredmethods": 3, "totalmethods": 3 },
+        { "name": "Microsoft.eShopWeb.ApplicationCore.Services.BasketService", "coverage": 100, "coveredlines": 57, "coverablelines": 57, "totallines": 85, "branchcoverage": 100, "coveredbranches": 16, "totalbranches": 16, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 5, "fullcoveredmethods": 5, "totalmethods": 5 },
+        { "name": "Microsoft.eShopWeb.ApplicationCore.Specifications.BasketWithItemsSpecification", "coverage": 100, "coveredlines": 12, "coverablelines": 12, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 2, "fullcoveredmethods": 2, "totalmethods": 2 } ] },
+      { "name": "Infrastructure", "classes": 1, "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 11, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 1, "fullcoveredmethods": 1, "totalmethods": 1, "classesinassembly": [
+        { "name": "Microsoft.eShopWeb.Infrastructure.Data.EfRepository\u00601", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 11, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 1, "fullcoveredmethods": 1, "totalmethods": 1 } ] } ]
+  }
+}
