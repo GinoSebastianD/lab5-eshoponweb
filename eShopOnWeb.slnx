@@ -18,6 +18,7 @@
     <Project Path="src/Web/Web.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/Lab05.Tests/Lab05.Tests.csproj" />
     <File Path="CodeCoverage.runsettings" />
     <Project Path="tests/FunctionalTests/FunctionalTests.csproj" />
     <Project Path="tests/IntegrationTests/IntegrationTests.csproj" />

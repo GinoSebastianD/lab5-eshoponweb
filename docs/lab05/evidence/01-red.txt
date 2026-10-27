@@ -1,0 +1,50 @@
+
+Esto es .NET 10.0.
+---------------------
+Versión del SDK: 10.0.403
+
+----------------
+Instalar un certificado de desarrollo HTTPS de ASP.NET Core.
+Para confiar en el certificado, ejecute "dotnet dev-certs https --trust"
+Obtenga información sobre HTTPS: https://aka.ms/dotnet-https
+
+----------------
+Escribir su primera aplicación: https://aka.ms/dotnet-hello-world
+Descubra las novedades: https://aka.ms/dotnet-whats-new
+Explore la documentación: https://aka.ms/dotnet-docs
+Notificar problemas y encontrar el código fuente en GitHub: https://github.com/dotnet/core
+Use "dotnet --help" para ver los comandos disponibles o visite: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+  Determinando los proyectos que se van a restaurar...
+<repo>\src\Infrastructure\Infrastructure.csproj : warning NU1902: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7 [<repo>\tests\Lab05.Tests\Lab05.Tests.csproj]
+<repo>\src\Infrastructure\Infrastructure.csproj : warning NU1903: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx [<repo>\tests\Lab05.Tests\Lab05.Tests.csproj]
+  Se ha restaurado <repo>\src\Infrastructure\Infrastructure.csproj (en 8.29 s).
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1903: El paquete "SQLitePCLRaw.lib.e_sqlite3" 2.1.11 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-2m69-gcr7-jv3q
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1902: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1903: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx
+  Se ha restaurado <repo>\src\ApplicationCore\ApplicationCore.csproj (en 12.84 s).
+  Se ha restaurado <repo>\src\BlazorShared\BlazorShared.csproj (en 12.84 s).
+  Se ha restaurado <repo>\tests\Lab05.Tests\Lab05.Tests.csproj (en 13.54 s).
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1903: El paquete "SQLitePCLRaw.lib.e_sqlite3" 2.1.11 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-2m69-gcr7-jv3q
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1902: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7
+<repo>\tests\Lab05.Tests\Lab05.Tests.csproj : warning NU1903: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx
+<repo>\src\Infrastructure\Infrastructure.csproj : warning NU1902: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7
+<repo>\src\Infrastructure\Infrastructure.csproj : warning NU1903: El paquete "System.Security.Cryptography.Pkcs" 9.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx
+  BlazorShared -> <repo>\src\BlazorShared\bin\Debug\net10.0\BlazorShared.dll
+  ApplicationCore -> <repo>\src\ApplicationCore\bin\Debug\net10.0\ApplicationCore.dll
+  Infrastructure -> <repo>\src\Infrastructure\bin\Debug\net10.0\Infrastructure.dll
+  Lab05.Tests -> <repo>\tests\Lab05.Tests\bin\Debug\net10.0\Lab05.Tests.dll
+Serie de pruebas para <repo>\tests\Lab05.Tests\bin\Debug\net10.0\Lab05.Tests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:02.34]     Lab05.Tests.Domain.BasketItemTests.AddQuantityRejectsOverflowAndPreservesQuantity [FAIL]
+  Con error Lab05.Tests.Domain.BasketItemTests.AddQuantityRejectsOverflowAndPreservesQuantity [371 ms]
+  Mensaje de error:
+   Assert.Throws() Failure: No exception was thrown
+Expected: typeof(System.ArgumentOutOfRangeException)
+  Seguimiento de la pila:
+     at Lab05.Tests.Domain.BasketItemTests.AddQuantityRejectsOverflowAndPreservesQuantity() in <repo>\tests\Lab05.Tests\Domain\BasketItemTests.cs:line 15
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+Archivo de resultados: <lab05>\evidence\red\red.trx
+
+Con error! - Con error:     1, Superado:     0, Omitido:     0, Total:     1, Duración: 401 ms - Lab05.Tests.dll (net10.0)

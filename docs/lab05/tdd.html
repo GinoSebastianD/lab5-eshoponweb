@@ -1,0 +1,18 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Lab05 Evidencia TDD</title><style>body{font-family:Arial,sans-serif;margin:0;background:#f5f7fa;color:#182333}main{max-width:1120px;margin:30px auto;background:white;padding:26px 34px}h1{font-size:28px;margin:0 0 10px}h2{font-size:21px;margin-top:24px}.sub{color:#526170;font-size:15px}.metrics{display:flex;gap:38px;margin:22px 0;font-size:18px}.metrics strong{font-size:30px;display:block;color:#176246}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #d7dee6;padding:9px 12px;text-align:left}th{background:#edf1f5}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f2f4f7;padding:18px;font-size:14px;line-height:1.5}.ok{color:#176246}.fail{color:#a52828}a{color:#175b9d}code{font-family:Consolas,monospace}footer{font-size:13px;color:#526170;margin-top:22px}</style><main><h1>Laboratorio 05 · Ciclo TDD real</h1><p class="sub">Invariante: una suma no debe desbordar la cantidad ni dejarla negativa.</p><h2 class="fail">RED · implementación original · 1 prueba fallida</h2><pre>[xUnit.net 00:00:02.34]     Lab05.Tests.Domain.BasketItemTests.AddQuantityRejectsOverflowAndPreservesQuantity [FAIL]
+  Con error Lab05.Tests.Domain.BasketItemTests.AddQuantityRejectsOverflowAndPreservesQuantity [371 ms]
+  Mensaje de error:
+   Assert.Throws() Failure: No exception was thrown
+Expected: typeof(System.ArgumentOutOfRangeException)
+Archivo de resultados: &lt;lab05&gt;\evidence\red\red.trx
+
+Con error! - Con error:     1, Superado:     0, Omitido:     0, Total:     1, Duración: 401 ms - Lab05.Tests.dll (net10.0)</pre><h2 class="ok">GREEN · validación incorporada · 1 prueba aprobada</h2><pre>Serie de pruebas para &lt;repo&gt;\tests\Lab05.Tests\bin\Debug\net10.0\Lab05.Tests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+Archivo de resultados: &lt;lab05&gt;\evidence\green\green.trx
+
+Correctas! - Con error:     0, Superado:     1, Omitido:     0, Total:     1, Duración: 34 ms - Lab05.Tests.dll (net10.0)</pre><h2>REFACTOR · validación unificada con Guard</h2><pre>public void AddQuantity(int quantity)
+    {
+        // Validate against the remaining capacity before modifying the entity.
+        Guard.Against.OutOfRange(quantity, nameof(quantity), 0, int.MaxValue - Quantity);
+
+        Quantity += quantity;
+    }</pre><footer>Fragmentos de registros originales. Las rutas locales se abreviaron para facilitar la lectura. La suite completa posterior aprobó 42/42 casos.</footer></main></html>

@@ -1,0 +1,74 @@
+Summary - Lab05 - cobertura global de ApplicationCore e Infrastructure
+  Generated on: 26/10/2026 - 23:12:02
+  Coverage date: 26/10/2026 - 23:10:46
+  Parser: Cobertura
+  Assemblies: 2
+  Classes: 50
+  Files: 50
+  Line coverage: 31.7%
+  Covered lines: 206
+  Uncovered lines: 442
+  Coverable lines: 648
+  Total lines: 1368
+  Branch coverage: 31.4% (22 of 70)
+  Covered branches: 22
+  Total branches: 70
+  Method coverage: 27.6% (26 of 94)
+  Full method coverage: 27.6% (26 of 94)
+  Covered methods: 26
+  Fully covered methods: 26
+  Total methods: 94
+
+ApplicationCore                                                                             32.7%
+  Ardalis.GuardClauses.BasketGuards                                                            0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket                         100%
+  Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem                     100%
+  Microsoft.eShopWeb.ApplicationCore.Entities.BuyerAggregate.Buyer                             0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand                                     0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem                                      0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType                                      0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Address                           0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.CatalogItemOrdered                0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Events.OrderCreatedEvent          0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Handlers.OrderCreatedHandler      0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order                             0%
+  Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.OrderItem                         0%
+  Microsoft.eShopWeb.ApplicationCore.Exceptions.BasketNotFoundException                        0%
+  Microsoft.eShopWeb.ApplicationCore.Exceptions.DuplicateException                             0%
+  Microsoft.eShopWeb.ApplicationCore.Exceptions.EmptyBasketOnCheckoutException                 0%
+  Microsoft.eShopWeb.ApplicationCore.Exceptions.RoleStillAssignedException                     0%
+  Microsoft.eShopWeb.ApplicationCore.Services.BasketService                                  100%
+  Microsoft.eShopWeb.ApplicationCore.Services.OrderService                                     0%
+  Microsoft.eShopWeb.ApplicationCore.Services.UriComposer                                      0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.BasketWithItemsSpecification             100%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CatalogFilterPaginatedSpecification        0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CatalogFilterSpecification                 0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CatalogItemNameSpecification               0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CatalogItemsSpecification                  0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CustomerOrdersSpecification                0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.CustomerOrdersWithItemsSpecification       0%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.OrderWithItemsByIdSpec                     0%
+  Microsoft.eShopWeb.JsonExtensions                                                            0%
+
+Infrastructure                                                                              30.9%
+  Microsoft.eShopWeb.Infrastructure.Data.CatalogContext                                      100%
+  Microsoft.eShopWeb.Infrastructure.Data.CatalogContextSeed                                    0%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.BasketConfiguration                          100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.BasketItemConfiguration                      100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.CatalogBrandConfiguration                    100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.CatalogItemConfiguration                     100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.CatalogTypeConfiguration                     100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.OrderConfiguration                           100%
+  Microsoft.eShopWeb.Infrastructure.Data.Config.OrderItemConfiguration                       100%
+  Microsoft.eShopWeb.Infrastructure.Data.EfRepository<T>                                     100%
+  Microsoft.eShopWeb.Infrastructure.Data.Queries.BasketQueryService                            0%
+  Microsoft.eShopWeb.Infrastructure.Dependencies                                               0%
+  Microsoft.eShopWeb.Infrastructure.HostEnvironmentExtensions                                  0%
+  Microsoft.eShopWeb.Infrastructure.Identity.AppIdentityDbContext                              0%
+  Microsoft.eShopWeb.Infrastructure.Identity.AppIdentityDbContextSeed                          0%
+  Microsoft.eShopWeb.Infrastructure.Identity.IdentityTokenClaimService                         0%
+  Microsoft.eShopWeb.Infrastructure.Identity.JwtSettings                                       0%
+  Microsoft.eShopWeb.Infrastructure.Identity.JwtSettingsValidator                              0%
+  Microsoft.eShopWeb.Infrastructure.Identity.UserNotFoundException                             0%
+  Microsoft.eShopWeb.Infrastructure.Logging.LoggerAdapter<T>                                   0%
+  Microsoft.eShopWeb.Infrastructure.Services.LoggerEmailSender                                 0%
