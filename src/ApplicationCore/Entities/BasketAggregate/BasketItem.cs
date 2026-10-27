@@ -21,6 +21,11 @@ public class BasketItem : BaseEntity
     {
         Guard.Against.OutOfRange(quantity, nameof(quantity), 0, int.MaxValue);
 
+        if (quantity > int.MaxValue - Quantity)
+        {
+            throw new System.ArgumentOutOfRangeException(nameof(quantity));
+        }
+
         Quantity += quantity;
     }
 
