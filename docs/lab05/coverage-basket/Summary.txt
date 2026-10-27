@@ -1,0 +1,29 @@
+Summary - Lab05 - cobertura del modulo carrito
+  Generated on: 26/10/2026 - 23:12:03
+  Coverage date: 26/10/2026 - 23:10:46
+  Parser: Cobertura
+  Assemblies: 2
+  Classes: 5
+  Files: 5
+  Line coverage: 100%
+  Covered lines: 107
+  Uncovered lines: 0
+  Coverable lines: 107
+  Total lines: 192
+  Branch coverage: 100% (18 of 18)
+  Covered branches: 18
+  Total branches: 18
+  Method coverage: 100% (17 of 17)
+  Full method coverage: 100% (17 of 17)
+  Covered methods: 17
+  Fully covered methods: 17
+  Total methods: 17
+
+ApplicationCore                                                                     100%
+  Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket                100%
+  Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem            100%
+  Microsoft.eShopWeb.ApplicationCore.Services.BasketService                         100%
+  Microsoft.eShopWeb.ApplicationCore.Specifications.BasketWithItemsSpecification    100%
+
+Infrastructure                                                                      100%
+  Microsoft.eShopWeb.Infrastructure.Data.EfRepository<T>                            100%

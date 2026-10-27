@@ -19,7 +19,8 @@ public class BasketItem : BaseEntity
 
     public void AddQuantity(int quantity)
     {
-        Guard.Against.OutOfRange(quantity, nameof(quantity), 0, int.MaxValue);
+        // Validate against the remaining capacity before modifying the entity.
+        Guard.Against.OutOfRange(quantity, nameof(quantity), 0, int.MaxValue - Quantity);
 
         Quantity += quantity;
     }
