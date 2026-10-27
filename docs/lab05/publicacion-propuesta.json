@@ -2,16 +2,53 @@
   "cuenta": "GinoSebastianD",
   "repositorio_propuesto": "lab5-eshoponweb",
   "visibilidad_propuesta": "publico",
-  "contenido": ["Codigo de eShopOnWeb con licencia MIT", "42 pruebas del laboratorio", "Correccion de BasketItem.AddQuantity", "Informe PDF sin caratula", "Capturas y reportes de pruebas y cobertura"],
-  "ramas": ["main", "development", "feature/lab05-basket"],
+  "contenido": [
+    "Codigo de eShopOnWeb con licencia MIT",
+    "42 pruebas del laboratorio",
+    "Correccion de BasketItem.AddQuantity",
+    "Informe PDF sin caratula",
+    "Capturas y reportes de pruebas y cobertura"
+  ],
+  "ramas": [
+    "main",
+    "development",
+    "feature/lab05-basket"
+  ],
   "tablero": "Lab05 eShopOnWeb",
-  "estados": ["TO-DO", "CURRENT ITERATION", "IN PROGRESS", "FIX VALIDATION", "DONE"],
+  "estados": [
+    "TO-DO",
+    "CURRENT ITERATION",
+    "IN PROGRESS",
+    "FIX VALIDATION",
+    "DONE"
+  ],
   "tareas": [
-    {"titulo": "Validar invariantes y corregir desbordamiento del carrito", "etiqueta": "enhancement", "responsable": "GinoSebastianD", "duracion": "60 min"},
-    {"titulo": "Probar especificaciones y persistencia del carrito", "etiqueta": "unit test", "responsable": "GinoSebastianD", "duracion": "60 min"},
-    {"titulo": "Probar BasketService con dobles e integracion", "etiqueta": "unit test", "responsable": "GinoSebastianD", "duracion": "70 min"},
-    {"titulo": "Publicar ejecucion cobertura e informe breve", "etiqueta": "unit test", "responsable": "GinoSebastianD", "duracion": "50 min"}
+    {
+      "titulo": "Validar invariantes y corregir desbordamiento del carrito",
+      "etiqueta": "enhancement",
+      "responsable": "GinoSebastianD",
+      "duracion": "60 min"
+    },
+    {
+      "titulo": "Probar especificaciones y persistencia del carrito",
+      "etiqueta": "unit test",
+      "responsable": "GinoSebastianD",
+      "duracion": "60 min"
+    },
+    {
+      "titulo": "Probar BasketService con dobles e integracion",
+      "etiqueta": "unit test",
+      "responsable": "GinoSebastianD",
+      "duracion": "70 min"
+    },
+    {
+      "titulo": "Publicar ejecucion cobertura e informe breve",
+      "etiqueta": "unit test",
+      "responsable": "GinoSebastianD",
+      "duracion": "50 min"
+    }
   ],
   "automatizaciones": "Desactivar los workflows heredados solo en el nuevo repositorio para evitar ejecuciones ajenas al laboratorio",
-  "estado": "pendiente de confirmacion"
+  "estado": "publicado",
+  "visibilidad_tablero": "privado"
 }

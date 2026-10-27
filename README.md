@@ -1,3 +1,18 @@
+# Laboratorio 05 — Pruebas unitarias y dobles de prueba
+
+Implementación del laboratorio sobre eShopOnWeb: **42 pruebas nuevas aprobadas**, 20 pruebas originales del carrito aprobadas y corrección de un desbordamiento mediante TDD. Se conserva el proyecto original y su licencia MIT.
+
+- [Informe breve sin carátula](docs/lab05/Informe_Lab05_eShopOnWeb.pdf)
+- [Instrucciones, resultados y cobertura](docs/lab05/README.md)
+- [Especificación completa de casos](docs/lab05/casos-de-prueba.md)
+- [Código de las pruebas](tests/Lab05.Tests)
+- [Issues del laboratorio](https://github.com/GinoSebastianD/lab5-eshoponweb/issues?q=is%3Aissue)
+- [Tablero Kanban privado de la cuenta](https://github.com/users/GinoSebastianD/projects/1)
+
+Cobertura de las cinco clases seleccionadas: 107/107 líneas y 18/18 ramas. Cobertura del conjunto medido ApplicationCore + Infrastructure: 206/648 líneas (31,7%). Los porcentajes tienen alcances diferentes.
+
+## Proyecto original
+
 # Microsoft eShopOnWeb ASP.NET Core Reference Application
 
 This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).

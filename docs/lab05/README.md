@@ -46,7 +46,20 @@ La tienda usa datos de demostración en memoria. Las pruebas de integración usa
 
 Se usan Arrange, Act y Assert, pruebas parametrizadas (`Theory`), inicialización por constructor y limpieza con `IDisposable`. NSubstitute proporciona respuestas controladas y verificaciones `Received` / `DidNotReceive`; los dobles no sustituyen las pruebas de persistencia reales.
 
-Ramas locales de trabajo: `main`, `development`, `feature/lab05-basket`. La publicación y el tablero GitHub se registran separadamente cuando se confirman.
+Ramas publicadas: `main`, `development`, `feature/lab05-basket`. Se integró la rama de trabajo en development y luego en main con commits de merge.
+
+## Seguimiento en GitHub
+
+Publicación: 27 de octubre de 2026. Las pruebas se ejecutaron el 26 de octubre de 2026.
+
+- Repositorio público: https://github.com/GinoSebastianD/lab5-eshoponweb
+- Tablero Kanban privado de la cuenta: https://github.com/users/GinoSebastianD/projects/1
+- Etapas: TO-DO, CURRENT ITERATION, IN PROGRESS, FIX VALIDATION y DONE.
+- Issues públicos: #1 dominio (60 min, enhancement), #2 repositorio (60 min, unit test), #3 servicios (70 min, unit test), #4 evidencias e informe (50 min, unit test).
+- Responsable de las cuatro tareas: GinoSebastianD. El detalle de aceptación y las evidencias figuran en cada issue.
+- La implementación y validación local se completaron antes de crear el tablero. No se atribuye a GitHub una cronología anterior a su creación.
+- Los workflows heredados están desactivados únicamente en este repositorio. Los reportes corresponden a ejecuciones locales verificadas.
+- Los commits RED ec3e286, GREEN c750b6c y REFACTOR 77a373c se conservan en el historial. El commit de publicación vincula los cuatro issues mediante Fix #1, Fix #2, Fix #3 y Fix #4.
 
 ## Evidencias
 
